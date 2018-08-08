@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="MyfirstApp">
+<head>
+<meta charset="utf-8">
+<title>Angular</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="libs\bootstrap\css\bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+<script scr="libs/jquery.min.js"></script>
+<script scr="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="controller.js"></script>
+<script>
+angular.module("MyfirstApp").controller("FirstController", function($scope) {
+  $scope.nombre="Andrea Hermilo";
+});
+</script>
+</head>
+<body ng-controller="FirstController">
+<h1>Mensaje: {{nombre}}</h1>
+</body>
+</html>
