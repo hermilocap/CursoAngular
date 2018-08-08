@@ -1,11 +1,11 @@
 // angular.module("MyfirstApp",[])
 // .controller("FirstController", function($scope) {
-//   $scope.nombre="Andrea Hermilo";
+//   $scope.nombre="Hermilo";
 // });
 
 // angular.module("MyfirstApp",[])
 // .controller("FirstController", function($scope) {
-//   $scope.nombre="Andrea Hermilo";
+//   $scope.nombre="Hermilo";
 // }).controller("SecondController", function($scope){
 //
 // })
